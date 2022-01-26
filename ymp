@@ -1,1 +1,0 @@
-jq '. | "\(.name) \(.ancestors) \(.resource)" ' compute.googleapis.com/Network
