@@ -26,4 +26,5 @@ done
 rm folder_map
 rm project_map
 rm org_map
-cat $OUTPUT_FILE | sort
+cat $OUTPUT_FILE | sort > $OUTPUT_FILE.sorted
+mv $OUTPUT_FILE.sorted $OUTPUT_FILE
